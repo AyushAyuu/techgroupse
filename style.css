@@ -540,7 +540,7 @@ p.lead-desc {
     z-index: 0;
 }
 
-.service-wrapper:after {
+/* .service-wrapper:after {
     content: "";
     position: absolute;
     width: 129px;
@@ -550,7 +550,7 @@ p.lead-desc {
     left: -8px !important;
     bottom: -6px !important;
     z-index: 0;
-}
+} */
 
 /* Top-right neon strip */
 .service-card:before {
@@ -722,7 +722,7 @@ p.lead-desc {
         }
         .industry-tab li:first-child{
             background: linear-gradient(45deg, #1F79BD, #49B0D9);
-   
+
         }
         .industry-tab li{
 padding: 17px;
@@ -760,7 +760,7 @@ gap: 30px;
         .advanced-services-main .card{
             background: radial-gradient(#151b3a 5%, #ffffff26) !important ;
         }
-        
+
         .capablities{
             background: linear-gradient(#1f79bd, #49b0d99e), url('/images/37 1.png');
             height: 425px;
@@ -779,7 +779,7 @@ gap: 30px;
             font-size: 54px;
         }
 
-   
+
     .logo-grid {
         padding: 40px 0;
             display: grid;
@@ -813,7 +813,7 @@ gap: 30px;
     }
 
     /* testimonial */
- 
+
     .card-blue {
         /* height: 312px; */
          color: white;
@@ -863,7 +863,7 @@ gap: 30px;
         background-repeat: no-repeat;
     background-size: contain;
     }
-   
+
     .card-blue .clustur1{
         height: 45px;
         background:url('/images/Frame\ 2087324458.png') ;
@@ -1154,7 +1154,7 @@ font-size: 20px !important;
             }
             .industry-tab{
                 margin: auto;
-                
+
             }
             .industry-content h2{
                 font-size: 30px;
@@ -1275,4 +1275,3 @@ width: 100%;
       transform:rotate(45deg);
     }
 
-      
