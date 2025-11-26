@@ -583,7 +583,7 @@ p.lead-desc {
 }
 
 .service-card h3 {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 700;
     margin-bottom: 15px;
     font-family: 'Uxum';
@@ -712,6 +712,7 @@ p.lead-desc {
         /* industry */
         .industry .row{
     flex-wrap: nowrap;
+    justify-content: space-evenly;
         }
 
         .industry-tab{
@@ -736,7 +737,7 @@ padding: 17px;
         .industry-content{
             margin-left: 25px;
             height: 656px;
-            width: 910px;
+            /* width: 910px; */
             background: linear-gradient(0deg, #161f4e 5%, #ffffff00), url(/images/industry-content.jpg);
             background-size: cover;
             background-repeat: no-repeat;
