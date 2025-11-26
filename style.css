@@ -13,6 +13,7 @@ html,
 body {
     height: 100%;
     background: #121836;
+    overflow-x: hidden ;
 }
 
 ::-webkit-scrollbar {
