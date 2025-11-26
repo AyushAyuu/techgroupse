@@ -662,12 +662,16 @@ p.lead-desc {
             margin: auto;
         }
 
+        .offcanvas.offcanvas-start{
+            width: 75%;
+        }
+
         /* remarkable */
         .remarkable{
             width: 1180px;
             height: 450px;
             background: linear-gradient(#1F79BD,#49B0D9) url(/images/remarkable-banner.png);
-                background: linear-gradient(#1f79bdb8, #49b0d99e), url(/images/remarkable-banner.png);
+                background: linear-gradient(#1f79bde6, #49b0d9ba), url(/images/remarkable-banner.png);
     background-size: cover;
     background-position: center;
     margin: 80px auto;
