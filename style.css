@@ -1054,6 +1054,7 @@ gap: 30px;
             .logos .logo{
                 width:90px;
             }
+            .logos{gap:2px !important;}
             .section-hero h1 {
                 font-size: 36px
             }
