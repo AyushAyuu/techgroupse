@@ -1100,7 +1100,15 @@
 
         observer.observe(document.querySelector(".stats-box"));
     </script>
-
+<script>
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+            $('.tg-header').addClass('headerfixed');
+        } else {
+            $('.tg-header').removeClass('headerfixed');
+        }
+    });
+</script>
     <script>
 var owl = $("#carousel1");
 

@@ -43,10 +43,14 @@ body {
 .tg-header {
     width: 100%;
     padding: 12px 75px;
-    background: linear-gradient(#FFFFFF33 0%, #00000033 0%);
+    background: #ffffff4f;
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    position: absolute;
+    /* position: absolute; */
+}
+
+.headerfixed{
+    top: 0  !important;
 }
 
 .tg-logo {
