@@ -130,6 +130,8 @@ body {
     transition: 0.3s ease;
 }
 
+
+
 .dropdown.show .dropdown-toggle::before {
     transform: rotate(180deg);
 }
@@ -526,6 +528,7 @@ p.lead-desc {
     /* border: 3px solid #1ea7ff; */
     position: relative;
     height: 100%;
+    z-index: 2;
 }
 
 .service-wrapper:before {
@@ -540,7 +543,7 @@ p.lead-desc {
     z-index: 0;
 }
 
-/* .service-wrapper:after {
+.service-wrapper:after {
     content: "";
     position: absolute;
     width: 129px;
@@ -550,7 +553,7 @@ p.lead-desc {
     left: -8px !important;
     bottom: -6px !important;
     z-index: 0;
-} */
+}
 
 /* Top-right neon strip */
 .service-card:before {
