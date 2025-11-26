@@ -74,6 +74,7 @@ body {
 
 .tg-nav a:hover {
     color: #1da1f2;
+    margin: 0px !important;
 }
 
 .generateai {
