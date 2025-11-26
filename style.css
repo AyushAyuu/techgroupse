@@ -598,7 +598,7 @@ p.lead-desc {
 
 .card-services {
     display: grid;
-    grid-template-columns: repeat(3, 360px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     margin-top: 35px;
     transition: 3s ease-in-out;
