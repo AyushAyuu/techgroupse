@@ -1051,6 +1051,9 @@ gap: 30px;
         }
 
         @media (max-width: 767px) {
+            .logos .logo{
+                width:90px;
+            }
             .section-hero h1 {
                 font-size: 36px
             }
